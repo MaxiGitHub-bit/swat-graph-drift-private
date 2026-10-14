@@ -1,0 +1,49 @@
+# ---- Data: never committed (iTrust terms forbid redistribution) ----
+data/
+SWaT/
+[Ss][Ww][Aa][Tt]/
+*.zip
+*archive*.zip
+archive (5).zip
+data_files/
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pcap
+*.pcapng
+*.zip
+*.7z
+*.h5
+*.npy
+*.npz
+inventory.json
+inventory_summary.txt
+
+# ---- Local settings and private notes ----
+config/paths.yaml
+local_patterns.txt
+private/
+drafts/
+
+# ---- Models and large outputs ----
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+models/
+
+# ---- Python / Jupyter / OS ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+desktop.ini

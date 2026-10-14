@@ -1,0 +1,14 @@
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14
+openpyxl>=3.1
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+pyyaml>=6.0
+torch>=2.2
+# PyTorch Geometric: install after torch, following https://pytorch-geometric.readthedocs.io
+torch_geometric>=2.5
+# Added later for W7 (API):
+# fastapi
+# uvicorn
