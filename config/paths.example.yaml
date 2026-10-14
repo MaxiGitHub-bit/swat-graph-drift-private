@@ -1,0 +1,5 @@
+# config/paths.example.yaml
+# INSTRUCTIONS: Copy this file to 'paths.yaml' and fill in your local folders.
+
+raw_swat_dataset_dir: "C:/path/to/your/local/SWaT/folder"
+output_cache_dir: "C:/path/to/your/local/cache/folder"
