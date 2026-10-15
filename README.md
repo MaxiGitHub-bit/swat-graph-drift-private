@@ -33,7 +33,7 @@ tests/       tests for scoring and data code
 
 ```
 pip install -r requirements.txt
-copy config\paths.example.yaml config\paths.yaml   (then edit the paths)
+copy config\paths.example.yaml config\paths.yaml
 ```
 
 Before every push: `python scripts/check_no_leaks.py`
