@@ -1,6 +1,6 @@
 # SWaT graph detection and drift study
 
-MSc Data Analytics applied research project (Dublin Business School), 2026.
+MSc Data Analytics applied research project (Dublin Business School), 2026/2027.
 
 Can a graph-based attack detector be trusted in practice? This project tests an
 unsupervised graph autoencoder on the SWaT water treatment testbed:
