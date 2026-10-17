@@ -20,7 +20,7 @@ https://www.sutd.edu.sg/itrust/itrust-labs/datasets/
 ## Layout
 
 ```
-config/      paths.example.yaml (copy to paths.yaml, which is never committed)
+config/      paths.example.yaml
 src/swatlab/ project code
 scripts/     command-line tools (inventory, leak check)
 notebooks/   exploration and reporting notebooks
