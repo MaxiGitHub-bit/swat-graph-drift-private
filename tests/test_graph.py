@@ -1,4 +1,4 @@
-"""Run with:  python -m pytest tests   (or)   python tests/test_graph.py"""
+"""Run with: python -m pytest tests (or) python tests/test_graph.py"""
 import sys
 from pathlib import Path
 
@@ -25,13 +25,15 @@ def test_engineering_is_symmetric_without_self_loops():
 
 
 def test_full_has_at_least_documented_links():
-    assert graph.n_links(graph.build("engineering_full", ORDER)) >= graph.n_links(graph.build("engineering", ORDER))
+    assert graph.n_links(graph.build("engineering_full", ORDER)) >= graph.n_links(
+        graph.build("engineering", ORDER))
 
 
 def test_random_matches_engineering_link_count():
     eng = graph.build("engineering", ORDER)
     for s in range(5):
-        assert graph.n_links(graph.build("random", ORDER, seed=s)) == graph.n_links(eng)
+        assert graph.n_links(graph.build(
+            "random", ORDER, seed=s)) == graph.n_links(eng)
 
 
 def test_uncertain_links_excluded():
